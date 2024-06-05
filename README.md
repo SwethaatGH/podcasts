@@ -18,20 +18,19 @@ All the texts and images involved are fetched from database.
 
 
 ## How to setup
-1. Create a directory with the given Java source code, sample images, sample audiofiles and backend code (sql).
+1. Create a folder and clone into folder the given Java source code, sample images, sample audiofiles and backend code (sql).
   
-   The following directory structure is to be followed:
-   /app
+   The following directory structure is to be followed inside that folder:
    
-   &emsp;all images
+   all images
    
-   &emsp;/audiofiles
+   /audiofiles
    
-   &emsp;&emsp;all songs
+   &emsp;all songs
    
-   &emsp;/src
+   /src
    
-   &emsp;&emsp;all java files
+   &emsp;all java files
    
 3. Create database schema with tables for audiofiles, images, users and text involved using sql dumped files provided here.
 4. Ensure proper backend access and correct paths for data.
