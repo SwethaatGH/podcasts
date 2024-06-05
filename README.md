@@ -18,10 +18,24 @@ All the texts and images involved are fetched from database.
 
 
 ## How to setup
-1. Clone the project with the Java source code, sample images, sample audiofiles and backend code (sql).
-2. Create database schema with tables for audiofiles, images, users and text involved using sql dumped files provided here.
-3. Ensure proper backend access and correct paths for data.
-4. Navigate to your project directory. Compile Main file using ```javac Main.java``` and run it using ```java Main```.
+1. Create a directory with the given Java source code, sample images, sample audiofiles and backend code (sql).
+  
+   The following directory structure is to be followed:
+   /app
+   
+   &emsp;all images
+   
+   &emsp;/audiofiles
+   
+   &emsp;&emsp;all songs
+   
+   &emsp;/src
+   
+   &emsp;&emsp;all java files
+   
+3. Create database schema with tables for audiofiles, images, users and text involved using sql dumped files provided here.
+4. Ensure proper backend access and correct paths for data.
+5. Navigate to your project directory. Compile Main file using ```javac Main.java``` and run it using ```java Main```.
 
 ## Future Enhancements
 Admin side of app can be added. Uploading feature can be added for clubs and associations to add audio podcasts.
